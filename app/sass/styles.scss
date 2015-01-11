@@ -1,14 +1,17 @@
-
+/*********************
+VARIABLES
+*********************/
+@import "variables";
 
 /*********************
 FONTS
 *********************/
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@import "../bower_components/font-awesome/scss/font-awesome.scss";
 
 /*********************
 COMPONENTS
 *********************/
-@import "variables";
 @import "scaffolding";
 @import "pages";
 

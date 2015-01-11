@@ -29,10 +29,15 @@
                 }
 
                 .hero-supplemental {
-                    padding-top: 10px;
                     background-color: $background-color-hero-supplemental;
                     color: $font-color-dark;
-                    font-size: 1.1em;
+
+                    p {
+                        margin: 0;
+                        padding: 10px 0;
+                        font-size: 1.1em;
+                    }
+
                 }
             }
         }
