@@ -1,0 +1,19 @@
+
+// Brand colours
+$brand-orange:              #FFBA7A;
+$brand-light-orange:        #FAE4D0;
+$brand-blue:                #70A8FF;
+$brand-light-blue:          #D6E4FB;
+$brand-dark-blue:           #092A5F;
+$brand-white:               #f7f0e7;
+
+// Fonts
+$font-base:                 'Noto Sans', sans-serif;
+$font-color-light:          $brand-light-blue !default;
+$font-color-dark:           $brand-dark-blue !default;
+
+// Page 1
+$background-color-page-one:                     $brand-light-blue !default;
+$background-color-hero-title:                   $brand-white !default;
+$background-color-hero-text-supplemental:       $brand-light-blue !default;
+$background-color-hero-supplemental:            $brand-light-blue !default;

@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+/*********************
+FONTS
+*********************/
+/*********************
+COMPONENTS
+*********************/
+/* line 1, C:/projects/websites/simonadcock/one_page/app/sass/scaffolding */
+body {
+  font-family: 'Noto Sans', sans-serif; }
+
+/* line 2, C:/projects/websites/simonadcock/one_page/app/sass/pages */
+.onepage-pagination {
+  display: none; }
+
+/* line 6, C:/projects/websites/simonadcock/one_page/app/sass/pages */
+.wrapper {
+  height: 100%;
+  overflow: hidden; }
+  /* line 12, C:/projects/websites/simonadcock/one_page/app/sass/pages */
+  .wrapper .allPages .page-one {
+    background-color: #D6E4FB; }
+    /* line 16, C:/projects/websites/simonadcock/one_page/app/sass/pages */
+    .wrapper .allPages .page-one .hero {
+      text-align: center; }
+      /* line 20, C:/projects/websites/simonadcock/one_page/app/sass/pages */
+      .wrapper .allPages .page-one .hero .hero-title {
+        padding-top: 20px;
+        background-color: #f7f0e7;
+        color: #092A5F;
+        font-size: 2.5em; }
+      /* line 27, C:/projects/websites/simonadcock/one_page/app/sass/pages */
+      .wrapper .allPages .page-one .hero img {
+        width: 100%; }
+      /* line 31, C:/projects/websites/simonadcock/one_page/app/sass/pages */
+      .wrapper .allPages .page-one .hero .hero-supplemental {
+        padding-top: 10px;
+        background-color: #D6E4FB;
+        color: #092A5F;
+        font-size: 1.1em; }
+  /* line 40, C:/projects/websites/simonadcock/one_page/app/sass/pages */
+  .wrapper .allPages .page-two {
+    background-color: #09958e;
+    color: #f7f0e7; }
+
+/*********************
+TABLET & SMALLER LAPTOPS
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*********************/
+/*********************
+LARGE VIEWING SIZE
+This is for the larger monitors and possibly full screen viewers.
+*********************/

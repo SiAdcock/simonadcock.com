@@ -1,0 +1,19 @@
+{
+  "name": "simonadcock.com",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": ">= 2.1.0",
+    "requirejs": "~2.1.15",
+    "normalize.css": "~3.0.2",
+    "canvas-falling-squares": "*",
+    "font-awesome": "~4.2.0",
+    "onepage-scroll": "~1.3.1"
+  },
+  "devDependencies": {
+    "lodash": "~2.4.1"
+  },
+  "private": true,
+  "resolutions": {
+    "jquery": ">= 2.1.0"
+  }
+}

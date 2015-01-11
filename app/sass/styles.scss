@@ -1,0 +1,36 @@
+
+
+/*********************
+FONTS
+*********************/
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
+/*********************
+COMPONENTS
+*********************/
+@import "variables";
+@import "scaffolding";
+@import "pages";
+
+
+/*********************
+TABLET & SMALLER LAPTOPS
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*********************/
+@media only screen and (min-width: 768px) {
+
+    @import "md/all";
+
+} // end of media query
+
+/*********************
+LARGE VIEWING SIZE
+This is for the larger monitors and possibly full screen viewers.
+*********************/
+@media only screen and (min-width: 1024px) {
+
+    @import "lg/all";
+
+} // end of media query

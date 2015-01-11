@@ -1,0 +1,47 @@
+
+.onepage-pagination {
+    display: none;
+}
+
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+
+    .allPages {
+
+        .page-one {
+
+            background-color: $background-color-page-one;
+
+            .hero {
+
+                text-align: center;
+
+                .hero-title {
+                    padding-top: 20px;
+                    background-color: $background-color-hero-title;
+                    color: $font-color-dark;
+                    font-size: 2.5em;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                .hero-supplemental {
+                    padding-top: 10px;
+                    background-color: $background-color-hero-supplemental;
+                    color: $font-color-dark;
+                    font-size: 1.1em;
+                }
+            }
+        }
+
+        .page-two {
+            background-color: #09958e;
+            color: #f7f0e7;
+        }
+
+    }
+
+}
